@@ -3,6 +3,9 @@ $primary-color: #fca311;
 $secondary-color: #001219;
 $text-color: black;
 $text-white: white;
+$dark-background: #222725;
+$light-background:#9e9b9b;
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -25,6 +28,23 @@ h3{
 p{
     font-size: 1.2em;
 }
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+    li{
+        list-style: none;
+    }
+}
+
+.bg-light{
+    background-color: $light-background;
+}
+
+.section-header{
+
+}
+
 .btn-primary{
     background-color: $primary-color;
     border: 1px solid $primary-color;
@@ -75,6 +95,27 @@ header{
     }
 }
 
+
+footer{ 
+    background-color: $dark-background;
+    color: $text-white;
+    h3{
+        font-size: 1.5em;
+        color: $primary-color;
+    }
+    ul{
+        li{
+            padding: 5px 0px;
+        }
+    }
+    a{
+        color: $text-white;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+}
+
+
 .section-1{
     .hero{
         background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0)), url('../images/hero.jpg');
@@ -91,5 +132,25 @@ header{
 
 
 .section-2{
-    
+    img{
+        border-radius: 40px;
+    }
+    span{
+        color: $primary-color;
+        font-size: 1.2em;
+        font-weight: 500;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+}
+
+
+.scetion-3{
+    span{
+        color: $primary-color;
+        font-size: 1.2em;
+        font-weight: 500;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
 }

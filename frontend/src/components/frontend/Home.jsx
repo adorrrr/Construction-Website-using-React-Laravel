@@ -1,30 +1,13 @@
 import React from 'react'
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import AboutImg from '../../assets/images/about-us.jpg'
+import Header from '../common/Header';
+import Footer from '../common/Footer';
 
 
 const Home = () => {
   return (
     <>
-      <header>
-        <div className='container py-3'>
-          <Navbar expand="lg" >
-              <Navbar.Brand href="#home" className='logo'><span>Company </span>Name</Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="ms-auto">
-                      <Nav.Link href="#home" className='nav-link'>Home</Nav.Link>
-                      <Nav.Link href="#link" className='nav-link'>About Us</Nav.Link>
-                      <Nav.Link href="#link" className='nav-link'>Services</Nav.Link>
-                      <Nav.Link href="#link" className='nav-link'>Project</Nav.Link>
-                      <Nav.Link href="#link" className='nav-link'>Blogs</Nav.Link>
-                      <Nav.Link href="#link" className='nav-link'>Contact Us</Nav.Link>
-                  </Nav>
-              </Navbar.Collapse>
-          </Navbar>
-        </div>
-      </header>
+      <Header />
       <main>
         {/* Hero Section */}
           <section className='section-1'>
@@ -44,20 +27,53 @@ const Home = () => {
           </section>
 
           {/* About Us Section */}
-          <section className='section-2'>
-            <div className='container'>
+          <section className='section-2 py-5'>
+            <div className='container py-5'>
               <div className='row'>
                 <div className='col-md-6'>
                   <img src={AboutImg} className='w-100'/>
                 </div>
-                <div className='col-md-6'></div>
+                <div className='col-md-6'>
+                  <span>About Us</span>
+                  <h2>Crafting structures that <br /> last a lifetime</h2>
+                  <p>Building enduring structures requires a comprehensive approach that combines advanced materials, resilient design, routine maintenance, and sustainable practices. By drawing on historical insights and utilizing modern technology. <br /><br />
+
+                  Designing structures that stand the test of time involves a seamless blend of cutting-edge materials, durable design, ongoing upkeep, and eco-friendly practices. By combining lessons                 from the past with the power of modern technology.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Our Services */}
+          <section className='scetion-3 bg-light py-5'>
+            <div className='container-fluid py-5'>
+              <div className='section-header text-center'>
+                <span>our services</span>
+                <h2>Our construction services</h2>
+                <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.</p>
+              </div>
+              <div className='row'>
+                <div className='col-md-3 col-lg-3'>
+                  <div className='item'>
+                    <div className='service-image'>
+                      <img src="" alt="" />
+                    </div>
+                    <div className='service-body'>
+                      <div className='service-title'>
+                        <h3>Civil Construction</h3>
+                      </div>
+                      <div className='service-content'>
+                        <p>Civil construction is a core sector within the construction industry that focuses on the design, development, and maintenance of infrastructure that supports modern society.</p>
+                      </div>
+                      <a href="#" className='btn btn-primary'>Read More</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
       </main>
-      <footer>
-
-      </footer>
+      <Footer/>
     </>
 
 
