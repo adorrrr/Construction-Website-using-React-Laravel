@@ -1,5 +1,6 @@
 import React from 'react'
-import AboutImg from '../../assets/images/about-us.jpg'
+import AboutImg from '../../assets/images/about-us.jpg';
+import ServiceImg from '../../assets/images/construction1.jpg';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 
@@ -56,7 +57,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src="" alt="" />
+                      <img src={ServiceImg} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
