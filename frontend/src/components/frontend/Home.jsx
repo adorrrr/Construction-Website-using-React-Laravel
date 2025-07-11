@@ -53,7 +53,7 @@ const Home = () => {
                 <h2>Our construction services</h2>
                 <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.</p>
               </div>
-              <div className='row'>
+              <div className='row pt-4'>
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
@@ -62,6 +62,143 @@ const Home = () => {
                     <div className='service-body'>
                       <div className='service-title'>
                         <h3>Civil Construction</h3>
+                      </div>
+                      <div className='service-content'>
+                        <p>Civil construction is a core sector within the construction industry that focuses on the design, development, and maintenance of infrastructure that supports modern society.</p>
+                      </div>
+                      <a href="#" className='btn btn-primary'>Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-md-3 col-lg-3'>
+                  <div className='item'>
+                    <div className='service-image'>
+                      <img src={ServiceImg} alt="" className='w-100' />
+                    </div>
+                    <div className='service-body'>
+                      <div className='service-title'>
+                        <h3>Civil Construction</h3>
+                      </div>
+                      <div className='service-content'>
+                        <p>Civil construction is a core sector within the construction industry that focuses on the design, development, and maintenance of infrastructure that supports modern society.</p>
+                      </div>
+                      <a href="#" className='btn btn-primary'>Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-md-3 col-lg-3'>
+                  <div className='item'>
+                    <div className='service-image'>
+                      <img src={ServiceImg} alt="" className='w-100' />
+                    </div>
+                    <div className='service-body'>
+                      <div className='service-title'>
+                        <h3>Civil Construction</h3>
+                      </div>
+                      <div className='service-content'>
+                        <p>Civil construction is a core sector within the construction industry that focuses on the design, development, and maintenance of infrastructure that supports modern society.</p>
+                      </div>
+                      <a href="#" className='btn btn-primary'>Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-md-3 col-lg-3'>
+                  <div className='item'>
+                    <div className='service-image'>
+                      <img src={ServiceImg} alt="" className='w-100' />
+                    </div>
+                    <div className='service-body'>
+                      <div className='service-title'>
+                        <h3>Civil Construction</h3>
+                      </div>
+                      <div className='service-content'>
+                        <p>Civil construction is a core sector within the construction industry that focuses on the design, development, and maintenance of infrastructure that supports modern society.</p>
+                      </div>
+                      <a href="#" className='btn btn-primary'>Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/*Why Choose Us*/}
+          <section className='sectio-4'>
+            <div className='container'>
+              <div className='section-header text-center'>
+                <span>Why Choose Us</span>
+                <h2>Discover our diverse range of projects</h2>
+                <p>Created in close partnership with our clients and collaborators, this approach merges industry expertise,decades of experience, innovation, and flexibility to consistently deliver excellence</p>
+              </div>
+              <div></div>
+            </div>
+          </section>
+
+          {/* Our Project */}
+          <section className='scetion-3 bg-light py-5'>
+            <div className='container-fluid py-5'>
+              <div className='section-header text-center'>
+                <span>our projects</span>
+                <h2>Discover our diverse range of projects</h2>
+                <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.</p>
+              </div>
+              <div className='row pt-4'>
+                <div className='col-md-3 col-lg-3'>
+                  <div className='item'>
+                    <div className='service-image'>
+                      <img src={ServiceImg} alt="" className='w-100' />
+                    </div>
+                    <div className='service-body'>
+                      <div className='service-title'>
+                        <h3>Dhaka Project 2025</h3>
+                      </div>
+                      <div className='service-content'>
+                        <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques.</p>
+                      </div>
+                      <a href="#" className='btn btn-primary'>Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-md-3 col-lg-3'>
+                  <div className='item'>
+                    <div className='service-image'>
+                      <img src={ServiceImg} alt="" className='w-100' />
+                    </div>
+                    <div className='service-body'>
+                      <div className='service-title'>
+                        <h3>Chittagong Project 2025</h3>
+                      </div>
+                      <div className='service-content'>
+                        <p>Civil construction is a core sector within the construction industry that focuses on the design, development, and maintenance of infrastructure that supports modern society.</p>
+                      </div>
+                      <a href="#" className='btn btn-primary'>Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-md-3 col-lg-3'>
+                  <div className='item'>
+                    <div className='service-image'>
+                      <img src={ServiceImg} alt="" className='w-100' />
+                    </div>
+                    <div className='service-body'>
+                      <div className='service-title'>
+                        <h3>Dhaka Project 2023</h3>
+                      </div>
+                      <div className='service-content'>
+                        <p>Civil construction is a core sector within the construction industry that focuses on the design, development, and maintenance of infrastructure that supports modern society.</p>
+                      </div>
+                      <a href="#" className='btn btn-primary'>Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-md-3 col-lg-3'>
+                  <div className='item'>
+                    <div className='service-image'>
+                      <img src={ServiceImg} alt="" className='w-100' />
+                    </div>
+                    <div className='service-body'>
+                      <div className='service-title'>
+                        <h3>Sylhet Project 2025</h3>
                       </div>
                       <div className='service-content'>
                         <p>Civil construction is a core sector within the construction industry that focuses on the design, development, and maintenance of infrastructure that supports modern society.</p>
