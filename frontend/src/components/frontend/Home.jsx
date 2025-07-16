@@ -123,14 +123,21 @@ const Home = () => {
           </section>
 
           {/*Why Choose Us*/}
-          <section className='sectio-4'>
+          <section className='sectio-4 py-5'>
             <div className='container'>
               <div className='section-header text-center'>
                 <span>Why Choose Us</span>
                 <h2>Discover our diverse range of projects</h2>
-                <p>Created in close partnership with our clients and collaborators, this approach merges industry expertise,decades of experience, innovation, and flexibility to consistently deliver excellence</p>
+                <p>Created in close partnership with our clients and collaborators, this approach merges industry expertise,<br />decades of experience, innovation, and flexibility to consistently deliver excellence</p>
               </div>
-              <div></div>
+              <div className='row'>
+                <div className='col-md-4'>
+                  <div>
+                    
+                  </div>
+
+                </div>
+              </div>
             </div>
           </section>
 
