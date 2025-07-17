@@ -36,14 +36,19 @@ ul{
         list-style: none;
     }
 }
+span{
+    color: $primary-color;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
 
 .bg-light{
     background-color: $light-background;
 }
 
-.section-header{
 
-}
 
 .btn-primary{
     background-color: $primary-color;
@@ -122,11 +127,7 @@ footer{
         min-height: 800px;
         color: $text-white;
 
-        span{
-            color: $primary-color;
-            font-size: 1.5em;
-            font-weight: 500;
-        }
+
     }    
 }
 
@@ -135,24 +136,10 @@ footer{
     img{
         border-radius: 40px;
     }
-    span{
-        color: $primary-color;
-        font-size: 1.2em;
-        font-weight: 500;
-        padding-bottom: 10px;
-        text-transform: uppercase;
-    }
 }
 
 
 .scetion-3{
-    span{
-        color: $primary-color;
-        font-size: 1.2em;
-        font-weight: 500;
-        padding-bottom: 10px;
-        text-transform: uppercase;
-    }
     .item{
         position: relative;
         overflow:hidden;
@@ -206,11 +193,35 @@ footer{
         border-radius: 40px;
         margin-bottom: 20px;
     }
-    span{
-        color: $primary-color;
-        font-size: 1.2em;
-        font-weight: 500;
-        padding-bottom: 10px;
-        text-transform: uppercase;
+}
+
+.section-5{
+    .swiper{
+        padding: 25px 25px 50px 25px;
+        .swiper-pagination-bullet-active{
+            background-color: $primary-color;
+        }
+    }
+    .card{
+        border-radius: 40px;
+        .card-body{
+            .rating{
+                color:#fca311;
+            }
+            .content{
+                p{
+                    font-size: 1em;
+                }
+            }
+            .meta{
+                img{
+                    border-radius: 50%;
+                }
+            }
+            .name{
+                font-size: 1.3em;
+                font-weight: 500;
+            }
+        }
     }
 }
