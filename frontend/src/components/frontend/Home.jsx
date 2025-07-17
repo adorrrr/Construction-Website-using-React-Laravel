@@ -1,6 +1,12 @@
 import React from 'react'
 import AboutImg from '../../assets/images/about-us.jpg';
-import ServiceImg from '../../assets/images/construction1.jpg';
+import ServiceImg1 from '../../assets/images/construction1.jpg';
+import ServiceImg2 from '../../assets/images/construction2.jpg';
+import ServiceImg3 from '../../assets/images/construction3.jpg';
+import ServiceImg4 from '../../assets/images/construction4.jpg';
+import Icon1 from '../../assets/images/icon-1.svg';
+import Icon2 from '../../assets/images/icon-2.svg';
+import Icon3 from '../../assets/images/icon-3.svg';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 
@@ -57,7 +63,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src={ServiceImg} alt="" className='w-100' />
+                      <img src={ServiceImg1} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
@@ -73,7 +79,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src={ServiceImg} alt="" className='w-100' />
+                      <img src={ServiceImg2} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
@@ -89,7 +95,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src={ServiceImg} alt="" className='w-100' />
+                      <img src={ServiceImg3} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
@@ -105,7 +111,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src={ServiceImg} alt="" className='w-100' />
+                      <img src={ServiceImg4} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
@@ -123,19 +129,46 @@ const Home = () => {
           </section>
 
           {/*Why Choose Us*/}
-          <section className='sectio-4 py-5'>
+          <section className='section-4 py-5'>
             <div className='container'>
-              <div className='section-header text-center'>
-                <span>Why Choose Us</span>
+              <div className='section-header text-center m-5'>
+                <div className='mb-2'><span>Why Choose Us</span></div>
                 <h2>Discover our diverse range of projects</h2>
                 <p>Created in close partnership with our clients and collaborators, this approach merges industry expertise,<br />decades of experience, innovation, and flexibility to consistently deliver excellence</p>
               </div>
               <div className='row'>
                 <div className='col-md-4'>
-                  <div>
-                    
+                  <div className='card shadow border-0 p-4'>
+                    <div className='card-icon'>
+                      <img src={Icon1} alt="" />
+                    </div>
+                    <div className='mt-4'>
+                      <h3>Cutting-Edge Solutions</h3>
+                    </div>
+                    <p>Small actions create big impacts. It all begins and ends with each employee committing to safer work practices daily, ensuring they return home safely.</p>
                   </div>
-
+                </div>
+                <div className='col-md-4'>
+                  <div className='card shadow border-0 p-4'>
+                    <div className='card-icon'>
+                      <img src={Icon2} alt="" />
+                    </div>
+                    <div className='mt-4'>
+                      <h3>Cutting-Edge Solutions</h3>
+                    </div>
+                    <p>Small actions create big impacts. It all begins and ends with each employee committing to safer work practices daily, ensuring they return home safely.</p>
+                  </div>
+                </div>
+                <div className='col-md-4'>
+                  <div className='card shadow border-0 p-4'>
+                    <div className='card-icon'>
+                      <img src={Icon3} alt="" />
+                    </div>
+                    <div className='mt-4'>
+                      <h3>Cutting-Edge Solutions</h3>
+                    </div>
+                    <p>Small actions create big impacts. It all begins and ends with each employee committing to safer work practices daily, ensuring they return home safely.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -153,7 +186,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src={ServiceImg} alt="" className='w-100' />
+                      <img src={ServiceImg1} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
@@ -169,7 +202,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src={ServiceImg} alt="" className='w-100' />
+                      <img src={ServiceImg2} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
@@ -185,7 +218,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src={ServiceImg} alt="" className='w-100' />
+                      <img src={ServiceImg3} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
@@ -201,7 +234,7 @@ const Home = () => {
                 <div className='col-md-3 col-lg-3'>
                   <div className='item'>
                     <div className='service-image'>
-                      <img src={ServiceImg} alt="" className='w-100' />
+                      <img src={ServiceImg4} alt="" className='w-100' />
                     </div>
                     <div className='service-body'>
                       <div className='service-title'>
