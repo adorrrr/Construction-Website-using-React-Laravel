@@ -273,3 +273,16 @@ footer{
 
     }    
 }
+
+
+.section-8{
+    .card{
+        border-radius: 40px;
+        
+        img{
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+    }
+
+}
