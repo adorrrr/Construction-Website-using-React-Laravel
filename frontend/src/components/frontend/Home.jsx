@@ -446,8 +446,9 @@ const Home = () => {
                     </div>
                     <div className='card-body p-4'>
                       <div>
-                        <a href="">Dummy blog title</a>
+                        <a href="" className='title'>Key Elements of Civil Construction within the construction</a>
                       </div>
+                      <a href="" className='btn btn-primary'>Read More</a>
                     </div>
                   </div>
                 </div>

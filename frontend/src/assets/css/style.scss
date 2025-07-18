@@ -243,9 +243,18 @@ footer{
 
 .section-6{
     .card{
+        border-radius: 40px;
+        img{
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
         .card-body{
-            a{
-                font-size: 1.5em;
+            a.title{
+                font-size: 1.4em;
+            }
+            .btn{
+                padding:10px 15px;
+                margin-top: 15px;
             }
         }
     }
